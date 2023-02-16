@@ -8,19 +8,21 @@ click==8.0.3
     # via flask
 flake8==4.0.1
     # via -r requirements-test.in
-flask==2.0.2
+flask==2.2.3
     # via -r requirements-test.in
 itsdangerous==2.0.1
     # via flask
 jinja2==3.0.3
     # via flask
-markupsafe==2.0.1
-    # via jinja2
+markupsafe==2.1.2
+    # via
+    #   jinja2
+    #   werkzeug
 mccabe==0.6.1
     # via flake8
 pycodestyle==2.8.0
     # via flake8
 pyflakes==2.4.0
     # via flake8
-werkzeug==2.0.2
+werkzeug==2.2.3
     # via flask
